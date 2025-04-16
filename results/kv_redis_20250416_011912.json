@@ -1,0 +1,54 @@
+{
+  "config": {
+    "host": "elr1cj67byvs02h0.qjvcls.ng.0001.apne1.cache.amazonaws.com",
+    "port": 6379,
+    "password": null,
+    "db": 0,
+    "key_prefix": "benchmark:",
+    "num_keys": 10000,
+    "value_size": 1024,
+    "num_threads": 10,
+    "operations_per_thread": 10000,
+    "read_write_ratio": 0.8,
+    "random_values": false,
+    "pipeline_size": 0,
+    "total_operations": 100000
+  },
+  "engine_type": "Redis",
+  "start_time": "2025-04-16T01:19:15.117100",
+  "end_time": "2025-04-16T01:19:36.817347",
+  "stats": {
+    "engine_type": "Redis",
+    "duration_sec": 21.700247,
+    "total_operations": 100000,
+    "operations_per_sec": 4608.242477608665,
+    "errors": 0,
+    "all_stats": {
+      "min": 1.5978813171386719,
+      "max": 88.53530883789062,
+      "avg": 2.137642729282379,
+      "median": 1.7883777618408203,
+      "p95": 3.122091293334961,
+      "p99": 8.684396743774414,
+      "throughput": 4608.242477608665
+    },
+    "get_stats": {
+      "min": 1.5978813171386719,
+      "max": 88.53530883789062,
+      "avg": 2.133858865855097,
+      "median": 1.786947250366211,
+      "p95": 3.107309341430664,
+      "p99": 8.583545684814453,
+      "throughput": 3682.1239868836515
+    },
+    "set_stats": {
+      "min": 1.6047954559326172,
+      "max": 67.62266159057617,
+      "avg": 2.152686867185058,
+      "median": 1.7943382263183594,
+      "p95": 3.1960010528564453,
+      "p99": 9.062051773071289,
+      "throughput": 926.1184907250133
+    }
+  }
+}

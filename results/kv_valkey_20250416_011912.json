@@ -1,0 +1,54 @@
+{
+  "config": {
+    "host": "elv16ozqsgo52a5k.qjvcls.ng.0001.apne1.cache.amazonaws.com",
+    "port": 6379,
+    "password": null,
+    "db": 0,
+    "key_prefix": "benchmark:",
+    "num_keys": 10000,
+    "value_size": 1024,
+    "num_threads": 10,
+    "operations_per_thread": 10000,
+    "read_write_ratio": 0.8,
+    "random_values": false,
+    "pipeline_size": 0,
+    "total_operations": 100000
+  },
+  "engine_type": "Valkey",
+  "start_time": "2025-04-16T01:19:39.777408",
+  "end_time": "2025-04-16T01:20:00.897225",
+  "stats": {
+    "engine_type": "Valkey",
+    "duration_sec": 21.119817,
+    "total_operations": 100000,
+    "operations_per_sec": 4734.889511589991,
+    "errors": 0,
+    "all_stats": {
+      "min": 1.561880111694336,
+      "max": 53.702354431152344,
+      "avg": 2.0743218803405763,
+      "median": 1.7871856689453125,
+      "p95": 2.9747486114501953,
+      "p99": 7.919073104858398,
+      "throughput": 4734.889511589991
+    },
+    "get_stats": {
+      "min": 1.561880111694336,
+      "max": 53.702354431152344,
+      "avg": 2.073901887467851,
+      "median": 1.7862319946289062,
+      "p95": 2.9854774475097656,
+      "p99": 7.959604263305664,
+      "throughput": 3793.5461277907852
+    },
+    "set_stats": {
+      "min": 1.5664100646972656,
+      "max": 52.05392837524414,
+      "avg": 2.076014421408424,
+      "median": 1.791238784790039,
+      "p95": 2.938508987426758,
+      "p99": 7.813453674316406,
+      "throughput": 941.3433837992062
+    }
+  }
+}
